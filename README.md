@@ -1,2 +1,0 @@
-# adamjosefin
-our wedding website
