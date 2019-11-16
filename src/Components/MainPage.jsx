@@ -14,16 +14,16 @@ export function MainPage(props) {
         <div className={styles.btmContainer}>
             <img className={styles.namesSvg} src={'./names.svg'} alt={'line'} />
 
-            <InfoSectionHeader text={"Info"} />
+            <InfoSectionHeader text={"info"} />
 
             <p className={styles.infoTextRow}>
-                Var? Chalmersbastun
+                var? Chalmersbastun
             </p>
             <p className={styles.infoTextRow}>
-                När? 4/7 16:00
+                när? 4/7 16:00
             </p>
             <p className={styles.infoTextRow}>
-                Hur? O.S.A. och kom dit!
+                hur? o.s.a. och kom dit
             </p>
         </div>    
     </div>);

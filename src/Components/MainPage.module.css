@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family: EstiloPro;
+    font-weight: light;
+    src: url("../fonts/Estilo Pro/EstiloPro-Light.otf") format("opentype");
+}
+
 :root {
     --primary-color: white;
     --secondary-color: #006666;
@@ -61,10 +67,12 @@
 
 .infoSectionHeaderText {
     font-size: 24px;
+    font-family: EstiloPro;
     color: var(--secondary-color);
 }
 
 .infoTextRow {
     color: var(--secondary-color);
+    font-family: EstiloPro;
     font-size: 18px;
 }
