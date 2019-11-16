@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/adamjosefin/static/css/main.4261906e.chunk.css",
-    "main.js": "/adamjosefin/static/js/main.8731fe77.chunk.js",
-    "main.js.map": "/adamjosefin/static/js/main.8731fe77.chunk.js.map",
+    "main.css": "/adamjosefin/static/css/main.ddeedeeb.chunk.css",
+    "main.js": "/adamjosefin/static/js/main.794dc26a.chunk.js",
+    "main.js.map": "/adamjosefin/static/js/main.794dc26a.chunk.js.map",
     "runtime~main.js": "/adamjosefin/static/js/runtime~main.d3ab55a8.js",
     "runtime~main.js.map": "/adamjosefin/static/js/runtime~main.d3ab55a8.js.map",
-    "static/js/2.463f97df.chunk.js": "/adamjosefin/static/js/2.463f97df.chunk.js",
-    "static/js/2.463f97df.chunk.js.map": "/adamjosefin/static/js/2.463f97df.chunk.js.map",
+    "static/js/2.bc2abb5e.chunk.js": "/adamjosefin/static/js/2.bc2abb5e.chunk.js",
+    "static/js/2.bc2abb5e.chunk.js.map": "/adamjosefin/static/js/2.bc2abb5e.chunk.js.map",
     "index.html": "/adamjosefin/index.html",
-    "precache-manifest.b2a6ebbd3237cf561ccaeeeb6f212657.js": "/adamjosefin/precache-manifest.b2a6ebbd3237cf561ccaeeeb6f212657.js",
+    "precache-manifest.8d025597542459694eaf7e6cb7503095.js": "/adamjosefin/precache-manifest.8d025597542459694eaf7e6cb7503095.js",
     "service-worker.js": "/adamjosefin/service-worker.js",
-    "static/css/main.4261906e.chunk.css.map": "/adamjosefin/static/css/main.4261906e.chunk.css.map"
+    "static/css/main.ddeedeeb.chunk.css.map": "/adamjosefin/static/css/main.ddeedeeb.chunk.css.map",
+    "static/media/MainPage.module.css": "/adamjosefin/static/media/EstiloPro-Light.4a3f2928.otf"
   }
 }
