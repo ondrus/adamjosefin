@@ -12,13 +12,29 @@ export function MainPage(props) {
         
         </div>    
         <div className={styles.btmContainer}>
-            <div className={styles.names}>
-                <span className={'adam'}>{'Adam Scott'}</span>
-                <span className={'annd'}>{'&'}</span>
-                <span className={'jossie'}>{'Josefin Ondrus'}</span>
-            </div>    
-            <div className={styles.ph2}>
-            </div>    
+            <img className={styles.namesSvg} src={'./names.svg'} alt={'line'} />
+
+            <InfoSectionHeader text={"Info"} />
+
+            <p className={styles.infoTextRow}>
+                Var? Chalmersbastun
+            </p>
+            <p className={styles.infoTextRow}>
+                När? 4/7 16:00
+            </p>
+            <p className={styles.infoTextRow}>
+                Hur? O.S.A. och kom dit!
+            </p>
         </div>    
+    </div>);
+}
+
+
+
+function InfoSectionHeader(props) {
+    const {text} = props;
+
+    return (<div className={styles.infoSectionHeader}>
+        <p className={styles.infoSectionHeaderText}>{text}</p>
     </div>);
 }
