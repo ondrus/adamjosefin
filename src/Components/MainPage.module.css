@@ -1,7 +1,8 @@
 
 :root {
-    --primary-color: #006666;
-    --secondary-color: white;
+    --primary-color: white;
+    --secondary-color: #006666;
+    --divider-color: #cdf9d4;
 }
 
 .mpContainer {
@@ -9,6 +10,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .topContainer {
@@ -18,7 +20,7 @@
     justify-content: space-between;
 }
 .topContent {
-    height: 400px;
+    height: 20vw;
 }
 
 .btmContainer {
@@ -26,17 +28,17 @@
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center; 
 }
 
 .backdrop {
     height: fit-content;
     width: 110%;
-    margin-left: -20px; 
+    margin-left: -20px;
 }
-
-.ph2 {
-    height: 100px;
+.namesSvg {
+    height: fit-content;
+    width: 100%;
 }
 
 .names {
@@ -44,4 +46,25 @@
     flex-direction: column;
     font-size: 58px;
     color: var(--secondary-color);
+}
+
+
+.infoSectionHeader{
+    align-self: center;
+    margin: 1px;
+    margin-top: 50px;
+    border: 1px dashed var(--secondary-color);
+    width: 98%;
+    /* background: linear-gradient(98deg, rgba(255,255,255,1) 0%, rgba(205,249,212,1) 48%, rgba(255,255,255,1) 100%); */
+    /* background: linear-gradient(98deg, rgba(255,255,255,1) 0%, rgba(0,102,102,1) 50%, rgba(255,255,255,1) 100%); */
+}
+
+.infoSectionHeaderText {
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+.infoTextRow {
+    color: var(--secondary-color);
+    font-size: 18px;
 }
