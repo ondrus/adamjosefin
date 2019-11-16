@@ -2,7 +2,7 @@
   "name": "adamjosefin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.adamjosefin.se",
+  "homepage": "https://adamjosefin.se",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
