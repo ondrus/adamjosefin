@@ -14,22 +14,29 @@ export function MainPage(props) {
         <div className={styles.btmContainer}>
             <img className={styles.namesSvg} src={'./names.svg'} alt={'line'} />
 
-            <InfoSectionHeader text={"info"} />
+            <NormalText text={"VÄLKOMNA DEN 4:E JULI 2020"} /> 
+            <NormalText text={"Svara här senast den 30:e april, tänk på att svara en gång för varje person i sällskapet"} /> 
+            <Button text={"svara"} /> 
 
-            <p className={styles.infoTextRow}>
-                var? Chalmersbastun
-            </p>
-            <p className={styles.infoTextRow}>
-                när? 4/7 16:00
-            </p>
-            <p className={styles.infoTextRow}>
-                hur? o.s.a. och kom dit
-            </p>
+            <InfoSectionHeader text={"mer info kommer snart"} />
+            {/* <NormalText text={"ursäkta röran, vi bygger om"} /> */}
+
         </div>    
     </div>);
 }
 
+function NormalText(props) {
+    return (<p className={styles.infoTextRow}>
+        {props.text}
+    </p>)
+}
 
+function Button(props) {
+    const gotoForm = () => window.location.href = "https://forms.gle/atNtrd7xsbP5AMHS8";
+    return (<button className={styles.button} type={"button"} onClick={gotoForm}>
+        {props.text}
+    </button>)
+}
 
 function InfoSectionHeader(props) {
     const {text} = props;
