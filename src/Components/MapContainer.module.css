@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: EstiloPro;
+    font-weight: light;
+    src: url("../fonts/Estilo Pro/EstiloPro-Light.otf") format("opentype");
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: #006666;
+    --divider-color: #cdf9d4;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 90vw;
+    max-height: 300px;
+    margin: auto;
+}
+.map{
+    max-height: 300px;
+}
