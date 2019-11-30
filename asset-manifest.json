@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.51ce3c04.chunk.css",
-    "main.js": "/static/js/main.385930dd.chunk.js",
-    "main.js.map": "/static/js/main.385930dd.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.8d9d9985.js",
-    "runtime~main.js.map": "/static/js/runtime~main.8d9d9985.js.map",
-    "static/js/2.bc2abb5e.chunk.js": "/static/js/2.bc2abb5e.chunk.js",
-    "static/js/2.bc2abb5e.chunk.js.map": "/static/js/2.bc2abb5e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.971ce783db5fbc72645712e038881926.js": "/precache-manifest.971ce783db5fbc72645712e038881926.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.51ce3c04.chunk.css.map": "/static/css/main.51ce3c04.chunk.css.map",
-    "static/media/MainPage.module.css": "/static/media/EstiloPro-Light.4a3f2928.otf"
+    "main.css": "/adamjosefin/static/css/main.033be1a0.chunk.css",
+    "main.js": "/adamjosefin/static/js/main.bb5f4d31.chunk.js",
+    "main.js.map": "/adamjosefin/static/js/main.bb5f4d31.chunk.js.map",
+    "runtime~main.js": "/adamjosefin/static/js/runtime~main.d3ab55a8.js",
+    "runtime~main.js.map": "/adamjosefin/static/js/runtime~main.d3ab55a8.js.map",
+    "static/js/2.bc2abb5e.chunk.js": "/adamjosefin/static/js/2.bc2abb5e.chunk.js",
+    "static/js/2.bc2abb5e.chunk.js.map": "/adamjosefin/static/js/2.bc2abb5e.chunk.js.map",
+    "index.html": "/adamjosefin/index.html",
+    "precache-manifest.6b772f04721567c7de62a83e31fe572a.js": "/adamjosefin/precache-manifest.6b772f04721567c7de62a83e31fe572a.js",
+    "service-worker.js": "/adamjosefin/service-worker.js",
+    "static/css/main.033be1a0.chunk.css.map": "/adamjosefin/static/css/main.033be1a0.chunk.css.map",
+    "static/media/MainPage.module.css": "/adamjosefin/static/media/EstiloPro-Light.4a3f2928.otf"
   }
 }
