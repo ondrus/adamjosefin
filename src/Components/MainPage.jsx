@@ -32,7 +32,7 @@ function NormalText(props) {
 }
 
 function Button(props) {
-    const gotoForm = () => window.location.href = "https://forms.gle/atNtrd7xsbP5AMHS8";
+    const gotoForm = () => window.open("https://forms.gle/atNtrd7xsbP5AMHS8");
     return (<button className={styles.button} type={"button"} onClick={gotoForm}>
         {props.text}
     </button>)
