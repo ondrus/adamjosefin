@@ -1,35 +1,31 @@
 import React from 'react';
 
 import styles from './MainPage.module.css';
+import TopBanner from './TopBanner';
 import MapContainer from './MapContainer';
 
 export function MainPage(props) {
     return (
     <div className={styles.mpContainer}>
-        <div className={styles.topContainer}>
-            <div className={styles.topContent}>
-            </div>    
-            <img className={styles.backdrop} src={'./backdrop.svg'} alt={'line'} />
-        
-        </div>    
+        <TopBanner />
         <div className={styles.btmContainer}>
             <img className={styles.namesSvg} src={'./names.svg'} alt={'line'} />
 
-            <NormalText text={"VÄLKOMNA DEN 4:E JULI 2020"} /> 
-            <NormalText text={"Svara här senast den 30:e april, tänk på att svara en gång för varje person i sällskapet"} /> 
-            <Button text={"svara"} /> 
+            <NormalText text={"VÄLKOMNAR TILL BRÖLLOP LÖRDAGEN 4 JULI 2020"} />
+            <NormalText text={"vänligen svara här senast den 30e april. tänk på att svara en gång för varje person i sällskapet."} />
+            <Button text={"svara"} />
 
             <InfoSectionHeader text={"info"} />
             {/* <NormalText text={"ursäkta röran, vi bygger om"} /> */}
-            <NormalText text={"vi kommer att anordna bussfärd ut till vigseln i härryda med avgång kl 1430 med avgång från posthotellet vid göteborgs centralstation"} /> 
-            <NormalText text={"efter vigseln blir det mingel fram till middagen som startar 1800"} /> 
+            <NormalText text={"vi kommer att anordna gemensam bussfärd för dem som vill, från posthotellet vid göteborgs centralstation till härryda."} />
+            <NormalText text={"vigsel, mingel, middag och fest kommer att ske på samma adress. vi räknar med dans in på småtimmarna! hem tar ni er enklast själva. vi rekommenderar att ni delar på en taxi."} />
 
 
-            <NormalText text={""} /> 
-            
+            <NormalText text={"mer information kommer när det börjar närma sig."} />
+
             {/* <MapContainer /> */}
 
-        </div>    
+        </div>
     </div>);
 }
 
