@@ -20,7 +20,7 @@
 }
 
 .btmContainer {
-    margin-top: -1px;
+    /*margin-top: -1px;*/
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
