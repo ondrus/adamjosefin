@@ -23,6 +23,7 @@ export function MainPage(props) {
 
             <NormalText text={"mer information kommer när det börjar närma sig."} />
 
+            <img className={styles.cutePic} src={'./cutest_pic.png'} alt={'line'} />
             {/* <MapContainer /> */}
 
         </div>
