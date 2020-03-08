@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./MainPage.module.css";
 import TopBanner from "./TopBanner";
-import MapContainer from "./MapContainer";
+// import MapContainer from "./MapContainer";
 
 export function MainPage(props) {
   return (
