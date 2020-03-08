@@ -11,7 +11,7 @@ export function MainPage(props) {
         <div className={styles.btmContainer}>
             <img className={styles.namesSvg} src={'./names.svg'} alt={'line'} />
 
-            <NormalText text={"VÄLKOMNAR TILL BRÖLLOP LÖRDAGEN 4 JULI 2020"} />
+            <NormalText text={"VÄLKOMNAR TILL BRÖLLOP"} text2={"LÖRDAGEN 4 JULI 2020"} />
             <NormalText text={"vänligen svara här senast den 30e april. tänk på att svara en gång för varje person i sällskapet."} />
             <Button text={"svara"} />
 
@@ -23,6 +23,7 @@ export function MainPage(props) {
 
             <NormalText text={"mer information kommer när det börjar närma sig."} />
 
+            <img className={styles.cutePic} src={'./cutest_pic.png'} alt={'line'} />
             {/* <MapContainer /> */}
 
         </div>
@@ -32,8 +33,13 @@ export function MainPage(props) {
 function NormalText(props) {
     return (<p className={styles.infoTextRow}>
         {props.text}
+        {props.text2 && <>
+            <br></br>
+            {props.text2}
+        </>}
     </p>)
 }
+
 
 function Button(props) {
     const gotoForm = () => window.open("https://forms.gle/atNtrd7xsbP5AMHS8");
