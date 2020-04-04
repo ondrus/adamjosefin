@@ -11,6 +11,12 @@ export function MainPage(props) {
       <div className={styles.btmContainer}>
         <img className={styles.namesSvg} src={"./names.svg"} alt={"line"} />
 
+        <WarningText
+          text={
+            "PGA CORONA VILL VI FLAGGA FÖR ATT FESTEN EVENTUELLT BLIR UPPSKJUTEN, MER INFO KOMMER VIA MAIL"
+          }
+        />
+
         <NormalText
           text={"VÄLKOMNAR TILL BRÖLLOP"}
           text2={"LÖRDAGEN 4 JULI 2020"}
@@ -62,6 +68,10 @@ function NormalText(props) {
       )}
     </p>
   );
+}
+
+function WarningText(props) {
+  return <p className={styles.warningRow}>{props.text}</p>;
 }
 
 function Button(props) {
