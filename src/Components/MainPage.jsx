@@ -13,7 +13,7 @@ export function MainPage(props) {
 
         <WarningText
           text={
-            "PGA CORONA VILL VI FLAGGA FÖR ATT FESTEN EVENTUELLT BLIR UPPSKJUTEN, MER INFO KOMMER VIA MAIL"
+            "tyvärr har vi bestämt oss för att skjuta upp bröllopsfesten på grund av covid-19. vi kommer ha en mindre vigsel i sommar och ser fram emot att få fira med er ordentligt vid ett senare tillfälle istället! om ni inte gjort det redan, ber vi er att anmäla er ändå så att vi har era kontaktuppgifter. ta hand om er sålänge så kommer mer information på mail längre fram. ♥"
           }
         />
 
